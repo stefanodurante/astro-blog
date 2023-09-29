@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "Home Page";
 ---
 <!--
 https://aesthetic-centaur-861f29.netlify.app/
@@ -11,12 +11,12 @@ https://docs.astro.build/en/tutorial/2-pages/
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
     <a href="/">Home</a>
     <a href="/blog">Blog</a>
     <a href="/about/">About</a>
-		<h1>My Astro Site</h1>
+		<h1>{pageTitle}</h1>
 	</body>
 </html>
